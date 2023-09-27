@@ -1,0 +1,56 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E122" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="sampleapp.models.Userpost.*" />
+          <option value="loginapp.models.LoginappRegisterlogin.*" />
+          <option value="rest_framework.status.HTTP_200_CREATED" />
+          <option value="registerapp.views.error" />
+          <option value="rest_framework.authtoken.models.Token.*" />
+          <option value="registerapp.models.LoginappRegisterlogin.*" />
+          <option value="roleapp.models.Officeproject.*" />
+          <option value="apitaskapp.models.Sellermodel.objects" />
+          <option value="apitaskapp.serializers.Seller_serialializererialializer" />
+          <option value="django.db.models.Sellermodel" />
+          <option value="apitaskapp.views.RiceSerializer" />
+          <option value="apitaskapp.models.Rice.objects" />
+          <option value="type.with_ui" />
+          <option value="type.*" />
+          <option value="rest_framework.generics.CreateAPIView.to_representation" />
+          <option value="apitaskapp.models.Seller_model.objects" />
+          <option value="permissionapp.models.CustomUser.generate_used_field" />
+          <option value="permissionapp.models.CustomUser" />
+          <option value="permissionapp.models.permissionapp" />
+          <option value="permissionapp.models.cpermissionapp" />
+          <option value="permissionapp.models.Products.*" />
+          <option value="adminapp.models.Group.objects" />
+          <option value="adminapp.models.Role.objects" />
+          <option value="adminapp.models.Role.DoesNotExist" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
